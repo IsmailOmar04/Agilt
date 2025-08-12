@@ -6,7 +6,7 @@ let snake = { x: 0, y: 0 };
 let direction = { x: 1, y: 0 };
 
 function drawSnake() {
-  context.fillStyle = "#0f0";
+  context.fillStyle = "green";
   context.fillRect(snake.x, snake.y, scale, scale);
 }
 
@@ -29,3 +29,4 @@ window.addEventListener("keydown", (e) => {
 });
 
 setInterval(gameLoop, 200);
+
